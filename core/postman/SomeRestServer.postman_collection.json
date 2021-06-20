@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "77b6842e-f64d-4a23-a297-99b72f6e01d1",
+		"_postman_id": "b6b6b336-890f-4de5-9e41-3d2a65d5fd1d",
 		"name": "SomeRestServer",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,12 +11,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/GetAll",
+					"raw": "{{base_url}}/getall",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"GetAll"
+						"getall"
 					]
 				}
 			},
@@ -28,12 +28,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/GetById/1",
+					"raw": "{{base_url}}/getbyid/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"GetById",
+						"getbyid",
 						"1"
 					]
 				}
@@ -46,12 +46,12 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/Delete/1",
+					"raw": "{{base_url}}/delete/1",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"Delete",
+						"delete",
 						"1"
 					]
 				}
@@ -73,12 +73,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/Save",
+					"raw": "{{base_url}}/save",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"Save"
+						"save"
 					]
 				}
 			},
@@ -110,12 +110,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/Update/5",
+					"raw": "{{base_url}}/update/5",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"Update",
+						"update",
 						"5"
 					]
 				}
