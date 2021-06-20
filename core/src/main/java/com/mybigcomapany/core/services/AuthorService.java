@@ -23,6 +23,7 @@ public class AuthorService {
             return userFromDb.orElse(new AuthorEntity());
     }
 
+    @Transactional
     public boolean delete(Long userId) {
         if (authorRepository.findById(userId).isPresent()) {
             authorRepository.deleteById(userId);
